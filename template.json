@@ -1,0 +1,15 @@
+{
+    "Actor": {
+        "types": [
+            "family",
+            "character"
+        ]
+    },
+    "templates":{
+        "base":{
+            "notes":""
+        }
+    },
+    "family":{},
+    "character":{}
+}

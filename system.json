@@ -1,0 +1,47 @@
+{
+  "id": "legacy2e",
+  "title": "Legacy Life Among The Ruins 2nd Edition",
+  "description": "Implementation of the Legacy Life Among The Ruins 2nd Edition system by UFO Press for Foundry.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13.346"
+  },
+  "url": "https://github.com/super12pl/legacy2e-foundryvtt",
+  "manifest": "https://github.com/super12pl/legacy2e-foundryvtt/releases/latest/download/system.json",
+  "download": "https://github.com/super12pl/legacy2e-foundryvtt/releases/latest/download/release.zip",
+  "authors": [
+    {
+      "name": "super12pl",
+      "discord": "super12pl"
+    }
+  ],
+  "esmodules": [
+    "legacy2e.mjs"
+  ],
+  "styles": [
+    "styles/system-styles.css"
+  ],
+  "flags": {
+    "hotReload": {
+      "extensions": [
+        "css",
+        "json",
+        "js",
+        "html"
+      ]
+    }
+  },
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "socket": true,
+  "grid": {
+    "distance": 1.5,
+    "units": "m"
+  }
+}
