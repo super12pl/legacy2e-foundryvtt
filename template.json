@@ -5,11 +5,18 @@
             "character"
         ]
     },
-    "templates":{
-        "base":{
-            "notes":""
+    "templates": {
+        "base": {
+            "notes": ""
         }
     },
-    "family":{},
-    "character":{}
+    "family": {
+        "info": {},
+        "stats": {
+            "reach": 0,
+            "grasp": 0,
+            "sleight": 0
+        }
+    },
+    "character": {}
 }

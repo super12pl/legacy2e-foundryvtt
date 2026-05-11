@@ -1,0 +1,9 @@
+{
+    "legacy2e.Sheet.Actor": "Default Legacy2e Character Sheet",
+    "TYPES": {
+        "Actor": {
+            "family": "Family",
+            "character": "Character"
+        }
+    }
+}

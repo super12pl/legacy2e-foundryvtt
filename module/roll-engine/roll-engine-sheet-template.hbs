@@ -1,0 +1,20 @@
+<form class="flexcentercol">
+    <div class="flexcenterrow">
+        <label>Modifier: <input type="number" name="modifier" value="{{modifier}}"></label>
+        <label>
+            Roll Type:
+            <select class="typeSelect" name="type" style="width: calc(100% - 2px)">
+                {{#select type}}
+                <option value="1">Advantage</option>
+                <option value="">Normal</option>
+                <option value="-1">Disadvantage</option>
+                {{/select}}
+            </select>
+        </label>
+        <label class="diceSelector" style="display: none;">
+            Additional Dice Rolled:
+            <input type="number" name="addDice" value="{{addDice}}">
+        </label>
+    </div>
+    <button class="rollBtn">Roll <i class="fa-solid fa-dice"></i></button>
+</form>

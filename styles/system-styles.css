@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+.flexcenterrow,
+.flexcentercol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.flexcenterrow {
+    flex-direction: row;
+}
+
+.flexcentercol {
+    flex-direction: column;
+}
+
+.legacy2e .sheet-tabs {
+    flex: 0;
+}
+
+.legacy2e .sheet-heads {
+    flex: 1;
+}
+
+.sheet-heads>div {
+    width: 100%;
+}
+
+.legacy2e .sheet-body {
+    flex: 2
+}

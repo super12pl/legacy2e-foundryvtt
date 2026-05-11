@@ -1,0 +1,29 @@
+<form class="flexcol" autocomplete="off" editable="true">
+    <header class="sheet-heads flexcentercol">
+        <div class="flexcenterrow">
+            <input style="font-weight:bold;" name="name" type="text" value="{{actor.name}}" placeholder="Name" />
+            <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="100"
+                width="100" />
+        </div>
+        <div class="flexcenterrow">
+            <label class="rollable" data-value="{{system.stats.reach}}">Reach<input name="system.stats.reach"
+                    type="number" value="{{system.stats.reach}}"></label>
+            <label class="rollable" data-value="{{system.stats.grasp}}">Grasp<input name="system.stats.grasp"
+                    type="number" value="{{system.stats.grasp}}"></label>
+            <label class="rollable" data-value="{{system.stats.sleight}}">Sleight<input name="system.stats.sleight"
+                    type="number" value="{{system.stats.sleight}}"></label>
+        </div>
+    </header>
+    <nav class="sheet-tabs flexcenterrow" data-group="primary">
+        <a data-tab="history">History</a>
+        <a data-tab="moves">Moves</a>
+    </nav>
+    <section class="sheet-body">
+        <section class="tab" data-group="primary" data-tab="history">
+            History
+        </section>
+        <section class="tab" data-group="primary" data-tab="moves">
+            Moves
+        </section>
+    </section>
+</form>
